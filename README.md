@@ -41,8 +41,10 @@ Our first step will be to set up our resources in Azure.  We need to create the 
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image1.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image2.png" height="40%" width="30%" alt="configure roles">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -50,16 +52,20 @@ Our next step will be to ensure connectivity between our Domain Controller and o
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image1.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image2.png" height="40%" width="30%" alt="configure roles">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
 Now we will install Active Directory Domain Services on our Domain Controller.  Using Microsoft Remote Desktop, login to your Domain Controller.  Server Manager should be open when we login.  If not, search Server Manager and open.  In Server Manager click _Add roles and Features_.  Click through to _Select server roles_ and check the box next to _Active Directory Domain Services_.  Click _Add Features_, click through to _Install_ and install.  When Active Directory Domain Services has been installed click _Close_.  In the upper right hand corner of our screen, we should see a flag with a yellow warning sign,  click on that warning sign and the click _Promote this server to a domain controller_.  Click the circle next to _Add a new forest_ and enter a Root domain name.  It is a private domain, so we can name it as we wish but it must be in the form of _example.com_.  Click _Next_ and enter a password of your choice.  Click through to _Install_ and install.  Once Active Directory is installed, our computer will restart.  When we log back in, we will use _root-domain-name\user-name_ as our username.  
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image1.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image2.png" height="40%" width="30%" alt="configure roles">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -67,8 +73,10 @@ Now that we have Active Directory installed, we will create two accounts; an Adm
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image1.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image2.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image3.png" height="40%" width="30%" alt="configure rolese"/>
 </p>
 
 
@@ -77,8 +85,9 @@ _root-domain-name\username_.  Click _OK_.  the computer will now restart.  When 
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image2.png" height="40%" width="40%" alt="configure roles"/>
 </p>
 
 
@@ -86,8 +95,9 @@ Now we will set up Remote Desktop for non-administrative users on our client mac
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image2.png" height="40%" width="40%" alt="configure roles">
 </p>
 
 
