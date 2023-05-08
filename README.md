@@ -74,3 +74,21 @@ Our next step will be to connect or client machine to our Domain Controller.  Fi
 _root-domain-name\username_.  Click _OK_.  the computer will now restart.  When it does, login using your credentials for the Domain Controller.
 
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+Now we will set up Remote Desktop for non-administrative users on our client machine.  Login to the client machine using your admin credentials.  Right click on _Start_, click _System_, and then _Remote Desktop_.  Under _User Accounts_, click _Select users that can remotely access this PC_.  Click _Add_ and in the box type _domain_, then click _Check Names_.  Click on _Domaine Users_ then click _OK_, _OK_, _OK_.
+
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+For our final step in this project, we will add a regular user to our DC and use that user to log on to our client machine.  Login to your DC as an admin.  Type _Active Directory Users and Computers_ in the search bar and click to open.  Click on your root domain and then right click on _USERS_.  Click _New_ and then _User_.  Enter a name, logon name, and password, and uncheck the box next to _User must change password at next logon_.  Click _Next_ and _Finish_.  You shouls now be able to use this username and password to logon to your client machine.  
+
+<br />
