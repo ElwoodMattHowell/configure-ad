@@ -70,5 +70,6 @@ Now that we have Active Directory installed, we will create two accounts; an Adm
 </p>
 
 
-Our next step will be to connect or client machine to our Domain Controller.
+Our next step will be to connect or client machine to our Domain Controller.  First we have to set the client machine's DNS settings to the DC's private IP address.  From the Azure Portal, navigate to _Virtual Machines_ and click on your Domain Controller.  Find the private IP address and copy it.  Navigate back to _Virtual Machines_ and click on your client machine.  In the task bar to the left, click on _Networking_, click on _Network Interface_, _DNS servers_, click _Custom_, and paste your DC's private IP address into the box.  Click _Save_.  Now, navigate back to the overview of you client machine and click _Restart_.  Using _Microsoft Remote Desktop_, login to the client machine.  Once the client machine has opened, right click on _Start_, click _System_, and click _Rename this PC_ in the panel to the right.  Click _Change_, click the radio button next to _Domain_, and enter the root domain name you have used for the previous few steps.  Enter the admin username and password we used in the previous step to login to the DC, in the form 
+_root-domain-name\username_.  Click _OK_.  the computer will now restart.  When it does, login using your credentials for the Domain Controller.
 <br />
