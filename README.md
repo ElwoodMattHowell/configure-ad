@@ -30,8 +30,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p float="left">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image1.png" height="40%" width="30%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image2.png" height="40%" width="30%" alt="configure roles">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
