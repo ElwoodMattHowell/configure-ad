@@ -6,7 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -21,10 +20,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Set up resources in Azure
+- Install Active Directory
+- Create an Admin and normal User account in Active Directory
+- Join client machine to domain
+- Set up Remote Desktop for non-administrative users on client machine
+- Create additional users and log in to client machine with created users
 
 <h2>Deployment and Configuration Steps</h2>
 
