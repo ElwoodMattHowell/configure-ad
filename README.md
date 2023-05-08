@@ -31,9 +31,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image1.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image3.png" height="40%" width="30%" alt="configure rolese">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image1.png" height="40%" width="30%" alt="Set up resources in Azure"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image2.png" height="40%" width="30%" alt="Set up resources in Azure"/>
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step1-image3.png" height="40%" width="30%" alt="Set up resources in Azure"/>
 </p>
 
 
@@ -42,9 +42,8 @@ Our first step will be to set up our resources in Azure.  We need to create the 
 
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image1.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image3.png" height="40%" width="30%" alt="configure rolese">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image1.png" height="40%" width="40%" alt="Ensure connectivity between Domaine Controller and client machine"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step2-image2.png" height="40%" width="40%" alt="Ensure connectivity between Domaine Controller and client machine"/>
 </p>
 
 
@@ -53,9 +52,9 @@ Our next step will be to ensure connectivity between our Domain Controller and o
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image1.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image3.png" height="40%" width="30%" alt="configure rolese">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image1.png" height="40%" width="30%" alt="Install Active Directory"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image2.png" height="40%" width="30%" alt="Install Active Directory"/>
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step3-image3.png" height="40%" width="30%" alt="Install Active Directory"/>
 </p>
 
 
@@ -63,9 +62,9 @@ Now we will install Active Directory Domain Services on our Domain Controller.  
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image1.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image3.png" height="40%" width="30%" alt="configure rolese">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image1.png" height="40%" width="30%" alt="Create an Admin and normal User account in Active Directory"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image2.png" height="40%" width="30%" alt="Create an Admin and normal User account in Active Directory"/>
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/step4-image3.png" height="40%" width="30%" alt="Create an Admin and normal User account in Active Directory"/>
 </p>
 
 
@@ -74,9 +73,9 @@ Now that we have Active Directory installed, we will create two accounts; an Adm
 
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image1.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image2.png" height="40%" width="30%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image3.png" height="40%" width="30%" alt="configure rolese"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image1.png" height="40%" width="30%" alt="Join client machine to domain"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image2.png" height="40%" width="30%" alt="Join client machine to domain"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step5-image3.png" height="40%" width="30%" alt="Join client machine to domain"/>
 </p>
 
 
@@ -86,8 +85,8 @@ _root-domain-name\username_.  Click _OK_.  the computer will now restart.  When 
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image1.png" height="40%" width="40%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image2.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image1.png" height="40%" width="40%" alt="Set up Remote Desktop for non-administrative users on client machine"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step6-image2.png" height="40%" width="40%" alt="Set up Remote Desktop for non-administrative users on client machine"/>
 </p>
 
 
@@ -96,8 +95,8 @@ Now we will set up Remote Desktop for non-administrative users on our client mac
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image1.png" height="40%" width="40%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image2.png" height="40%" width="40%" alt="configure roles">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image1.png" height="40%" width="40%" alt="Create additional users and log in to client machine with created users"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/step7-image2.png" height="40%" width="40%" alt="Create additional users and log in to client machine with created users">
 </p>
 
 
